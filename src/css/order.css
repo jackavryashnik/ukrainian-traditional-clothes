@@ -1,0 +1,178 @@
+/* ==============DELETE============== */
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 375px) {
+  .container {
+    width: 335px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 100px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .container {
+    width: 1240px;
+  }
+}
+/* ==============/DELETE============== */
+
+.orders {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.order-background-img {
+  background-image: url(../img/order/background-girl-mobile-375w.jpg);
+  background-repeat: no-repeat;
+  padding-top: 630px;
+}
+
+.orders-title {
+  max-width: 335px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37; /* 137.5% */
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.orders-title-span {
+  color: #ecd979;
+}
+.modal-form-input {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  padding: 0 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 47px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: #fcf9f9;
+  transition: border-color 250ms linear;
+}
+.modal-form-input:focus {
+  border-color: rgba(252, 249, 249, 0.6);
+  outline: transparent;
+  outline-offset: 4px;
+}
+.modal-form-input::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+}
+
+.modal-form-message {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  padding: 14px 16px;
+  height: 196px;
+  margin-bottom: 40px;
+  resize: none;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #fcf9f9;
+  transition: border-color 250ms linear;
+}
+.modal-form-message:focus {
+  border-color: rgba(252, 249, 249, 0.6);
+  outline: transparent;
+  outline-offset: 4px;
+}
+.modal-form-message::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+}
+.orders-button {
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  min-width: 145px;
+  min-height: 49px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.orders-picture {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .orders {
+    padding-top: 50px;
+  }
+
+  .orders-title {
+    max-width: 481px;
+  }
+  .modal-form-input {
+    width: 508px;
+  }
+  .modal-form-message {
+    width: 508px;
+  }
+  .orders-button {
+    margin: 0;
+  }
+  .orders-picture {
+    display: block;
+    margin-left: auto;
+  }
+  .order-grup {
+    margin-bottom: 100px;
+  }
+  .order-background-img {
+    background-image: url(../img/order/background.png),
+      url(../img/order/background-girl-tablet-768w.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom, top;
+    padding-bottom: 79px;
+    padding-top: 876px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .orders {
+    padding-top: 75px;
+  }
+  .order-background-img {
+    background-image: url(../img/order/background.png),
+      url(../img/order/background-girl-laptop1-1280w.jpg);
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 50px;
+    align-items: flex-start;
+    padding-bottom: 0;
+    padding-top: 926px;
+  }
+  .order-grup {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .order-background-img {
+    background-image: url(../img/order/background.png),
+      url(../img/order/background-girl-laptop2-1440w.jpg);
+  }
+}
