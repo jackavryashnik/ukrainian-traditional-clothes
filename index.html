@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/ukrainian-traditional-clothes/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/ukrainian-traditional-clothes/assets/index-9fec77f9.css">
+    <link rel="stylesheet" href="/ukrainian-traditional-clothes/assets/index-0e63e66b.css">
   </head>
   <body>
     <!-- Loads the HEADER file -->
@@ -37,7 +37,59 @@
     
 
     <!-- Loads the ORDER file -->
-    
+    <section class="orders">
+  <div class="container order-background-img">
+    <div class="order-grup">
+      <h2 class="orders-title">
+        <span class="orders-title-span">Your order</span> is our priority:
+        Personalized approach and quality of service
+      </h2>
+      <form class="orders-form">
+        <input
+          class="modal-form-input"
+          type="text"
+          name="user-full-name"
+          placeholder="Enter your full name"
+          required
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙ']+"
+          title="Artem"
+        />
+        <input
+          class="modal-form-input"
+          type="email"
+          name="user-email"
+          placeholder="Enter your email"
+          required
+        />
+        <textarea
+          class="modal-form-message"
+          name="user-comment"
+          placeholder="Comments"
+        ></textarea>
+
+        <button class="orders-button" type="submit">
+          Send
+          <svg
+            class="hero-icon-svg"
+            width="27.5"
+            height="21"
+            aria-label="arrow in the button"
+          >
+            <use href="/ukrainian-traditional-clothes/assets/sprite-5b0d2b78.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <img
+      class="orders-picture"
+      srcset="/ukrainian-traditional-clothes/assets/order-table-638w-c0911bf5.jpg 638w, /ukrainian-traditional-clothes/assets/order-table-1276w@2x-1e9043b9.jpg 1276w, /ukrainian-traditional-clothes/assets/order-laptop-524w-4c73a36e.jpg 524w, /ukrainian-traditional-clothes/assets/order-laptop-1048w@2x-ca4700a9.jpg 1048w"
+      sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+      src="/ukrainian-traditional-clothes/assets/order-table-638w-c0911bf5.jpg"
+      alt="embroidered shirt"
+    />
+  </div>
+</section>
+
 
     <!-- Loads the TESTIMONIALS file -->
     
