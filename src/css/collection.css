@@ -1,0 +1,152 @@
+/* mobile style */
+
+.colection{
+    background-image: url(/img/colection/g8-mob.png);
+    background-repeat: no-repeat;
+    background-position-x: -127px;
+    background-position-y: 316px;
+}
+
+.colection-conteiner{
+    padding: 20px 20px 40px 20px;
+}
+.colection-head{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.37em;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.colection-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.colection-img{
+    width: 335px;
+    height: 400px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+.colection-item-text{
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.colection-item-prise{
+    color: rgba(252, 249, 249, 0.40);
+    font-weight: 400;
+}
+
+/* tablet style */
+
+@media screen and (min-width: 756px){
+    .colection{
+        background-image: url(/img/colection/g8-tab.png);
+        background-position-x: -224px;
+        background-position-y: 224px;
+    }
+    .colection-conteiner{
+        padding: 50px 20px 50px 20px;
+    }
+    .colection-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .colection-head{
+        font-size: 44px;
+        line-height: 1.45em; 
+    }
+    .colection-item-text{
+        width: 342px;
+        font-size: 18px;
+    }
+    .colection-img{
+        width: 342px;
+        height: 430px;
+    }
+}
+
+/* 1240px style */
+
+@media screen and (min-width: 1240px){
+    .colection{
+        background-image: url(/img/colection/g8-1240.png);
+        background-position-x: -169px;
+        background-position-y: 222px;
+    }
+    .colection-conteiner{
+        padding: 70px 20px 100px 20px;
+    }
+    .colection-list{
+        row-gap: 40px;
+        column-gap: 20px;
+    }
+    .colection-item-text{
+        width: 347px;
+    }
+    .colection-img{
+        width: 347px;
+        height: 430px;
+    }
+}
+
+/* 1440px style */
+
+@media screen and (min-width: 1440px){
+    .colection{
+        background-image: url(/img/colection/g8-1440.png);
+        background-position-x: -170px;
+        background-position-y: 251px;
+    }
+    .colection-item-text{
+        width: 100%;
+    }
+    .colection-img{
+        width: 400px;
+        height: 430px;
+    }
+}
+
+/* media for retina */
+
+/* @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) and (max-width: 767px) {
+        .colection{
+            background-image: url(/img/colection/g8-mob@2x.png);
+        }
+    }
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) and (min-width: 768px) {
+        .colection{
+            background-image: url(/img/colection/g8-tab2x.png);
+        }
+    }
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) and (min-width: 1240px) {
+        .colection{
+            background-image: url(/img/colection/g8-12402x.png);
+        }
+    }
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) and (min-width: 1440px) {
+        .colection{
+            background-image: url(/img/colection/g8-14402x.png);
+        }
+    } */
