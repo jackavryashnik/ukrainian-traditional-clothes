@@ -17,7 +17,7 @@ body {
 
 @media (min-width: 375px) {
   .container {
-    width: 335px;
+    width: 375px;
   }
 }
 
@@ -33,7 +33,7 @@ body {
 
 @media (min-width: 1280px) {
   .container {
-    width: 1080px;
+    width: 1280px;
     padding: 0 100px;
   }
   .section {
