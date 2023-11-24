@@ -77,3 +77,19 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleTabletDisplay(currentIndex);
   }
 });
+
+// burger menu event
+const burgerMenu = document.querySelector('.burger-button');
+const closeMenuBtn = document.querySelector('.close-button');
+const backdrop = document.querySelector('.backdrop');
+
+burgerMenu.addEventListener('click', showMenu);
+closeMenuBtn.addEventListener('click', hideMenu);
+
+function showMenu() {
+  backdrop.classList.add('is-open');
+}
+
+function hideMenu() {
+  backdrop.classList.remove('is-open');
+}
