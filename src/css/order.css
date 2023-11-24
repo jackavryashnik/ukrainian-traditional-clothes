@@ -1,16 +1,62 @@
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 100px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
+/* ==============/DELETE============== */
 .hero-icon-svg {
   fill: #ecd979;
 }
 .orders {
   padding-top: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
-.order-background-img {
+.background-girl {
   background-image: url(../img/order/background-girl-mobile-375w.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-  padding-top: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 550px;
+  margin-bottom: 80px;
 }
-
+@media only screen and (max-width: 375px) {
+  .background-girl {
+    background-size: cover;
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .background-girl {
+    background-image: url(../img/order/background-girl-mobile-750w@2x.jpg);
+  }
+}
 .orders-title {
   max-width: 335px;
   font-size: 32px;
@@ -95,6 +141,7 @@
 @media only screen and (min-width: 768px) {
   .orders {
     padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .orders-title {
@@ -117,12 +164,25 @@
     margin-bottom: 100px;
   }
   .order-background-img {
-    background-image: url(../img/order/background.png),
-      url(../img/order/background-girl-tablet-768w.jpg);
-    background-repeat: no-repeat;
-    background-position: left bottom, top;
     padding-bottom: 79px;
-    padding-top: 876px;
+  }
+  .order-background {
+    background-image: url(../img/order/background.png);
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 50px;
+  }
+  .background-girl {
+    background-image: url(../img/order/background-girl-tablet-768w.jpg);
+    width: 768px;
+    height: 776px;
+    margin-bottom: 80px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background-girl {
+      background-image: url(../img/order/background-girl-tablet-1536w@2x.jpg);
+    }
   }
 }
 
@@ -131,22 +191,39 @@
     padding-top: 75px;
   }
   .order-background-img {
-    background-image: url(../img/order/background.png),
-      url(../img/order/background-girl-laptop1-1280w.jpg);
     display: flex;
     flex-direction: row-reverse;
     column-gap: 50px;
     align-items: flex-start;
     padding-bottom: 0;
-    padding-top: 926px;
   }
+
   .order-grup {
     margin-bottom: 0;
   }
+  .background-girl {
+    background-image: url(../img/order/background-girl-laptop1-1280w.jpg);
+    width: 1282px;
+    margin-bottom: 150px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background-girl {
+      background-image: url(../img/order/background-girl-laptop1-2560w@2x.jpg);
+    }
+  }
 }
 @media only screen and (min-width: 1440px) {
-  .order-background-img {
-    background-image: url(../img/order/background.png),
-      url(../img/order/background-girl-laptop2-1440w.jpg);
+  .background-girl {
+    background-image: url(../img/order/background-girl-laptop2-1440w.jpg);
+    width: 1440px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background-girl {
+      background-image: url(../img/order/background-girl-laptop2-2880w@2x.jpg);
+    }
   }
 }
