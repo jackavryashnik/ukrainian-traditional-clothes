@@ -188,6 +188,9 @@
   }
 }
 @media only screen and (min-width: 1440px) {
+  .orders-title {
+    max-width: 482px;
+  }
   .background-girl {
     background-image: url(../img/order/background-girl-laptop2-1440w.jpg);
     width: 1440px;
