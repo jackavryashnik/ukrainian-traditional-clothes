@@ -1,0 +1,7 @@
+footer {
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
+    background: #1C2225;
+    width: 375px;
+    height: 649px;
+    flex-shrink: 0;
+}
