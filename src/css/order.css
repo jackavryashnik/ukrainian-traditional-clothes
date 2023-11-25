@@ -111,6 +111,8 @@
 .orders-button:hover,
 .orders-button:focus {
   border-color: #ecd979;
+  outline: transparent;
+  outline-offset: 4px;
 }
 .orders-picture {
   display: none;
