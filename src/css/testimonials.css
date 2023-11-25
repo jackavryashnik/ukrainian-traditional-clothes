@@ -101,7 +101,7 @@
     width: 100%;
   }
   .testimonials-item {
-    width: calc(50% - 32px);
+    width: calc(50% - 13px);
   }
   .testimonials-item:nth-child(2) {
     display: list-item;
@@ -125,7 +125,7 @@
     width: 100%;
   }
   .testimonials-item {
-    width: calc(33.33% - 52px);
+    width: calc(33.33% - 17.33px);
   }
   .testimonials-item:nth-child(3) {
     display: list-item;
