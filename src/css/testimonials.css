@@ -54,6 +54,13 @@
   background-color: transparent;
 }
 
+.next:hover .next,
+.next:focus .next,
+.prev:hover .prev,
+.prev:focus .prev {
+  fill: #ecd979;
+}
+
 .next {
   right: -20px;
 }
@@ -108,7 +115,6 @@
   .next {
     right: -30px;
   }
-
   .prev {
     left: -30px;
   }
