@@ -1,6 +1,6 @@
 .header{
-    color: #FCF9F9;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .contact-telephone{
@@ -11,12 +11,14 @@
 .contact-telephone:hover,
 .contact-telephone:focus{
     border: 1px solid #ECD979;
+    outline: transparent;
+    outline-offset: 4px;
 }
 
 .header-container{
     display: flex;
     justify-content: space-between;
-    height: 55px;
+    height: 52px;
     align-items: center;
 }
 
@@ -55,6 +57,8 @@
 .social-list-link:focus{
     border: 1px solid #ECD979;
     background: transparent;
+    outline: transparent;
+    outline-offset: 4px;
 }
 
 
@@ -103,18 +107,24 @@
     pointer-events: auto;
 }
 
+.backdrop.is-open>.mobile-menu{
+    transform: translateX(-274px);
+}
+
 .mobile-menu{
     padding: 20px;
     width: 274px;
     height: 100%;
     position: absolute;
-    right: 0;
+    right: -274px;
     top: 0;
     background-color: #ECD979;
     background-image: url("../img/modal/elements.png");
     background-repeat: no-repeat;
     background-size: 100% 251px;
     background-position: bottom;
+    transition: transform 250ms linear;
+    
 }
 
 .mobile-menu.is-open{
@@ -207,10 +217,19 @@
         font-size: 14px;
         line-height: 1.29;
         text-transform: uppercase;
-        transition: color 250ms linear;
     }
-    .menu-item:hover,
-    .menu-item:focus{
+
+    .menu-item-link{
+        outline: transparent;
+        outline-offset: 4px;
+        transition: color 250ms linear;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .menu-item-link:hover,
+    .menu-item-link:focus,
+    .menu-item-link:active{
         color: #ECD979;
     }
     .contact-telephone{
