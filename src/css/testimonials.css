@@ -54,10 +54,10 @@
   background-color: transparent;
 }
 
-.next:hover .next,
-.next:focus .next,
-.prev:hover .prev,
-.prev:focus .prev {
+.next:hover .arrow-next,
+.next:focus .arrow-next,
+.prev:hover .arrow-prev,
+.prev:focus .arrow-prev {
   fill: #ecd979;
 }
 
