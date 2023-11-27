@@ -1,0 +1,157 @@
+.about {
+  padding-top: 20px;
+  padding-bottom: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.about-block {
+  margin-bottom: 50px;
+}
+.about-title {
+  color: #fcf9f9;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.about-title-content {
+  display: flex;
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+.about-title-hiden {
+  display: none;
+}
+
+.about-background {
+  background-image: url(../img/about/elementMob1x.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+/* ========================= */
+
+details {
+  display: inline;
+}
+
+details {
+  position: relative;
+}
+details summary {
+  display: block;
+  cursor: pointer;
+  color: #ecd979;
+}
+details summary:focus {
+  outline: none;
+}
+details[open] {
+  display: block;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  animation: open 0.2s linear;
+}
+details[open] summary {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+details #open {
+  padding-left: 5px;
+  text-align: middle;
+}
+details #open:after {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  padding-left: 8px;
+  content: '\00bb';
+  transform: rotate(90deg);
+}
+details[open] #open {
+  display: none;
+}
+details #close {
+  display: none;
+}
+details[open] #close {
+  display: block;
+}
+
+::-webkit-details-marker {
+  display: none;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================== */
+@media only screen and (min-width: 768px) {
+  .about-background {
+    background-image: url(../img/about/elementTab1x.png);
+  }
+  .about {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .about-title-content {
+    font-size: 16px;
+  }
+  .about-block {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-background {
+    background-image: url(../img/about/elementDesk1x.png);
+  }
+  .about {
+    padding-bottom: 80px;
+    padding-top: 75px;
+  }
+  .about-laptop {
+    display: flex;
+    column-gap: 50px;
+  }
+  .about-block {
+    width: 436px;
+    padding: 45.5px 0;
+  }
+  .obout-close-text {
+    display: none;
+  }
+  .about-title-hiden {
+    display: block;
+  }
+
+  details summary {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-background {
+    background-image: url(../img/about/elementFullDesk1x.png);
+  }
+  .about-block {
+    width: 481px;
+    padding: 78px 0;
+  }
+}
