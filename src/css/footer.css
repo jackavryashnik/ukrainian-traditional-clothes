@@ -4,6 +4,7 @@ footer-background {
   background-image: url(../img/footer/footer-mobile.png);
   background-position: center bottom;
   background-repeat: no-repeat;
+  border-top: 1px solid rgba(252,249,249,0.1);
 }
 
 .footer-menu {
