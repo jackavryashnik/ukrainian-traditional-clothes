@@ -16,7 +16,10 @@
   margin-right: auto;
   width: 100%;
   height: 550px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
+}
+.scroll {
+  height: 40px;
 }
 @media only screen and (max-width: 375px) {
   .background-girl {
@@ -154,7 +157,10 @@
     background-image: url(../img/order/background-girl-tablet-768w.jpg);
     width: 768px;
     height: 776px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+  }
+  .scroll {
+    height: 50px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -183,7 +189,10 @@
   .background-girl {
     background-image: url(../img/order/background-girl-laptop1-1280w.jpg);
     width: 1282px;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
+  }
+  .scroll {
+    height: 75px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
