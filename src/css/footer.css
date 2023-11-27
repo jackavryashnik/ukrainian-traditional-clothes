@@ -1,0 +1,105 @@
+.footer-background {
+  padding-top: 40px;
+  padding-bottom: 300px;
+  background-image: url(../img/footer/footer-mobile.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.footer-menu {
+  display: flex;
+  row-gap: 25px;
+  column-gap: 40px;
+  margin: auto 0;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.order {
+  order: 1;
+}
+.first-item {
+  margin-right: 49px;
+}
+.footer-menu-item {
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  text-transform: uppercase;
+}
+.footer-item-text {
+  color: var(--white, #fcf9f9);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  text-transform: uppercase;
+}
+
+.footer-item-text:hover,
+.footer-item-text:focus {
+  color: #ecd979;
+  outline: transparent;
+}
+.box-slogan {
+  margin: auto 0;
+  padding: 20px;
+  padding-bottom: 80px;
+}
+.footer-slogan {
+  color: var(--white, #fcf9f9);
+  font-family: Manrope;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px; /* 122.727% */
+  letter-spacing: -1.32px;
+  max-width: 335px;
+}
+.text-span {
+  color: var(--white, #ecd979);
+
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: -1.32px;
+}
+@media only screen and (min-width: 768px) {
+  .first-item {
+    margin-right: 0;
+  }
+  .footer-menu {
+    column-gap: 25px;
+    margin-bottom: 80px;
+  }
+  .footer-background {
+    padding-bottom: 40px;
+    background-image: url(../img/footer/footer-table.png);
+    background-position: right center;
+  }
+  .footer-slogan {
+    max-width: 514px;
+  }
+  .order {
+    order: 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-menu {
+    margin-bottom: 117px;
+  }
+  .footer-slogan {
+    max-width: 525px;
+  }
+  .footer-background {
+    background-image: url(../img/footer/footer-1280.png);
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer-background {
+    background-image: url(../img/footer/footer1440.png);
+  }
+}
