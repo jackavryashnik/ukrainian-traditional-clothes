@@ -133,8 +133,16 @@ details[open] #close {
   }
   .about-block {
     width: 436px;
+
+    align-items: center;
     padding: 45.5px 0;
+   
   }
+  
+  .about-title-content:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+  
   .obout-close-text {
     display: none;
   }
