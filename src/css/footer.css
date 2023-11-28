@@ -28,6 +28,7 @@ footer-background {
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   text-transform: uppercase;
+  transition: color 250ms linear;
 }
 .footer-item-text {
   color: var(--white, #fcf9f9);
