@@ -4,6 +4,9 @@
   letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
+.section {
+  padding: 80px 0;
+}
 .testimonials-list {
   display: flex;
   flex-wrap: wrap;
@@ -118,6 +121,9 @@
   .prev {
     left: -30px;
   }
+  .section {
+    padding: 100px 0;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -136,5 +142,11 @@
 
   .prev {
     display: none;
+  }
+  .section {
+    padding: 119px 0;
+  }
+  .section {
+    padding: 150px 0;
   }
 }

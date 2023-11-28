@@ -3,7 +3,6 @@
 }
 .orders {
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 .background-girl {
   background-image: url(../img/order/background-girl-mobile-375w.jpg);
@@ -16,10 +15,9 @@
   margin-right: auto;
   width: 100%;
   height: 550px;
-  margin-bottom: 40px;
 }
 .scroll {
-  height: 40px;
+  height: 80px;
 }
 @media only screen and (max-width: 375px) {
   .background-girl {
@@ -123,7 +121,6 @@
 @media only screen and (min-width: 768px) {
   .orders {
     padding-top: 50px;
-    padding-bottom: 50px;
   }
 
   .orders-title {
@@ -151,16 +148,16 @@
   .order-background {
     background-image: url(../img/order/background.png);
     background-repeat: no-repeat;
-    background-position: left 0 bottom 50px;
+    background-position: left 0 bottom 0;
   }
   .background-girl {
     background-image: url(../img/order/background-girl-tablet-768w.jpg);
     width: 768px;
     height: 776px;
-    margin-bottom: 50px;
   }
   .scroll {
-    height: 50px;
+    height: 100px;
+    display: block;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -189,10 +186,10 @@
   .background-girl {
     background-image: url(../img/order/background-girl-laptop1-1280w.jpg);
     width: 1282px;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
   }
   .scroll {
-    height: 75px;
+    height: 100px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
