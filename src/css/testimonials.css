@@ -118,6 +118,9 @@
   .prev {
     left: -30px;
   }
+  .section {
+    padding: 100px 0;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -136,5 +139,11 @@
 
   .prev {
     display: none;
+  }
+  .section {
+    padding: 119px 0;
+  }
+  .section {
+    padding: 150px 0;
   }
 }

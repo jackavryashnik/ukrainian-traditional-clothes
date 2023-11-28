@@ -1,5 +1,5 @@
 .about {
-  padding-top: 20px;
+  padding-top: 80px;
   padding-bottom: 62px;
   display: flex;
   justify-content: center;
@@ -110,7 +110,7 @@ details[open] #close {
   }
   .about {
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .about-title-content {
     font-size: 16px;
@@ -125,7 +125,7 @@ details[open] #close {
   }
   .about {
     padding-bottom: 80px;
-    padding-top: 75px;
+    padding-top: 100px;
   }
   .about-laptop {
     display: flex;
@@ -137,13 +137,12 @@ details[open] #close {
 
     align-items: center;
     padding: 45.5px 0;
-   
   }
-  
+
   .about-title-content:nth-last-child(2) {
     margin-bottom: 0;
   }
-  
+
   .obout-close-text {
     display: none;
   }
@@ -153,7 +152,6 @@ details[open] #close {
 
   details summary {
     display: none;
-
   }
 }
 @media only screen and (min-width: 1440px) {
