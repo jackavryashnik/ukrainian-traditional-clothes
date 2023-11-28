@@ -1,6 +1,5 @@
 .hero-section {
-  padding-top: 30px;
-  padding-bottom: 0;
+  padding: 60px 0 0 0;
 }
 
 .hero-title {
@@ -87,6 +86,9 @@
   .hero-section {
     padding-top: 86px;
   }
+  .section.hero-section {
+    padding: 106px 0 0 0;
+  }
 
   .hero-container {
     position: relative;
@@ -172,6 +174,9 @@
   }
   .hero-section {
     padding-bottom: 50px;
+  }
+  .section.hero-section {
+    padding: 100px 0 0 0;
   }
 }
 
