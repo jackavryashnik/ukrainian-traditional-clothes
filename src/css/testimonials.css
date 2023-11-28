@@ -4,6 +4,9 @@
   letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
+.section {
+  padding: 80px 0;
+}
 .testimonials-list {
   display: flex;
   flex-wrap: wrap;
