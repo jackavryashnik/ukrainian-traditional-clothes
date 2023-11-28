@@ -1,5 +1,5 @@
-.section.hero-section {
-  padding: 60px 0 0 0;
+.hero-section {
+  padding-top: 45px;
 }
 
 .hero-title {
@@ -10,8 +10,8 @@
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: -0.03em;
-  margin: 0 auto;
-  padding-bottom: 20px;
+
+  margin-bottom: 20px;
 }
 
 .title-color {
@@ -45,8 +45,8 @@
 }
 
 .hero-btn {
-  padding-left: 70px;
-  padding-bottom: 40px;
+  margin-left: 70px;
+  margin-bottom: 40px;
 }
 
 .hero-btn-link {
@@ -84,10 +84,7 @@
 
 @media (min-width: 768px) {
   .hero-section {
-    padding-top: 86px;
-  }
-  .section.hero-section {
-    padding: 106px 0 0 0;
+    padding-top: 91px;
   }
 
   .hero-container {
@@ -98,9 +95,8 @@
     font-size: 54px;
     line-height: 1.18;
     letter-spacing: -0.03em;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     max-width: 549px;
-    margin: 0;
   }
 
   .title-color {
@@ -110,8 +106,7 @@
   }
 
   .hero-btn {
-    padding-left: 141px;
-    padding-bottom: 40px;
+    margin-left: 141px;
   }
   .hero-btn-link {
     font-size: 16px;
@@ -158,9 +153,8 @@
     font-size: 54px;
     line-height: 1.18;
     letter-spacing: -0.03em;
-    padding-bottom: 40px;
+
     max-width: 518px;
-    margin: 0;
   }
 
   .hero-svg {
@@ -173,10 +167,11 @@
     bottom: -96px;
   }
   .hero-section {
+    padding-top: 85px;
     padding-bottom: 50px;
   }
-  .section.hero-section {
-    padding: 100px 0 0 0;
+  .hero-btn {
+    margin-bottom: 0;
   }
 }
 
