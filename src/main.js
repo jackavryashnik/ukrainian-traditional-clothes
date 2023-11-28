@@ -82,9 +82,11 @@ document.addEventListener('DOMContentLoaded', function () {
 const burgerMenu = document.querySelector('.burger-button');
 const closeMenuBtn = document.querySelector('.close-button');
 const backdrop = document.querySelector('.backdrop');
+const modalMenu = document.querySelector('.modal-menu');
 
 burgerMenu.addEventListener('click', showMenu);
 closeMenuBtn.addEventListener('click', hideMenu);
+modalMenu.addEventListener('click', hideMenu);
 
 function showMenu() {
   backdrop.classList.add('is-open');
