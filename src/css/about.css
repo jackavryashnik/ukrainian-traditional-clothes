@@ -118,6 +118,11 @@ details[open] #close {
   .about-block {
     margin-bottom: 40px;
   }
+
+  .about-img {
+    width: 704px;
+    height: 545px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   .about-background {
@@ -153,6 +158,11 @@ details[open] #close {
   details summary {
     display: none;
   }
+
+  .about-img {
+    width: 594px;
+    height: 545px;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .about-background {
@@ -161,5 +171,10 @@ details[open] #close {
   .about-block {
     width: 481px;
     padding: 78px 0;
+  }
+
+  .about-img {
+    width: 709px;
+    height: 545px;
   }
 }

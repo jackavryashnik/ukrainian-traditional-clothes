@@ -180,6 +180,11 @@
     padding-bottom: 0;
   }
 
+  .orders-picture {
+    width: 524px;
+    height: 521px;
+  }
+
   .order-grup {
     margin-bottom: 0;
   }
